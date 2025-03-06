@@ -1,0 +1,62 @@
+class APIEndpoints {
+  //static String baseUrl = 'https://api.biggee.in/api/';
+  static String imageBaseUrl = 'http://139.59.39.54:6060/';
+  static String baseUrl = 'http://139.59.39.54:6060/api/';
+
+  static String socketURL = "https://139.59.39.54:6060/";
+
+  static String googlePlacesUrl =
+      'https://maps.googleapis.com/maps/api/place/autocomplete/json';
+  static String getVideos = 'get_video';
+  static String contestVideo = 'contest_video';
+  static String contestVideoByUser = 'contest-video';
+  static String getLiveContest = 'get_live_contest';
+  static String generateGuestToken = 'guest-login';
+  static String sendOTP = 'login';
+  static String verifyOTP = 'otp-login';
+  static String languages = 'languages';
+  static String getWebSlider = 'get-web-slider';
+  static String likeUnlike = 'likeUnlike';
+  static String userFullDetails = 'userFullDetails';
+  static String editUserDetails = 'editProfile';
+  static String panrequest = 'panrequest';
+  static String bankRequest = 'bankRequest';
+  static String getReportCategory = 'getReportCategory';
+  static String interestCategories = 'interest-categories';
+  static String watchLater = 'watch-later';
+  static String removeFromWatchLater = 'remove-watch-later';
+  static String reportVideo = 'report_video';
+  static String notIntrested = 'not-intrested';
+  static String getAllContest = 'get_all_contest';
+  static String leagueDetails = 'leagueDetails';
+  static String getUsableBalance = 'get_usable_balance';
+  static String myLeaderboard = 'myLeaderboard';
+  static String liveRanksLeaderboard = 'liveRanksLeaderboard';
+  static String search = 'search';
+  static String trending = 'trending';
+  static String getUserVideo = 'get_user_video';
+  static String getUserByAuditionId = 'getUserByAuditionId';
+  static String getUserList = 'getUserList';
+  static String addReportUser = 'addReportUser';
+  static String userBlockUnblock = 'userBlockUnblock';
+  static String followUnfollow = 'followUnfollow';
+  static String getFollowerList = 'getFollowerList';
+  static String getBlockedUser = 'getBlockedUser';
+  static String getHashTagVideo = 'get_hashtag_video';
+  static String getNotification = 'get_notification';
+  static String addFavMusic = 'addFavMusic';
+  static String uploadNormalVideoToServer = 'upload_video';
+  static String getMusicUploaded = 'get_music_Uploaded';
+  static String getFavMusicList = 'favMusicList';
+  static String allverify = 'allverify';
+  static String verifyEmailAddress = "verifyEmail";
+  static String verifyMobileNumber = "verifyMobileNumber";
+  static String transactionDetail = "transaction-detail";
+  static String getTransactions = "getTransactions";
+  static String panDetails = "panDetails";
+  static String bankDetails = "bankDetails";
+  static String requestAddCash = "requestAddCash";
+  static String uploadMusic = "upload_music";
+  static String joinContest = "join_contest";
+  static String checkContest = "check_contest";
+}
